@@ -4,9 +4,10 @@ Basic programming exercises with increased complexity, done for laboratory sessi
 The main directory comprises a folder for each lecture. 
 
 Each lecture directory is composed by 
-- slides (in Italian)
-- a README explaining the proposed exercises, src/ directory for the source files of the proposed solutions and a test/ directory containing the test suits.
+- Lecture slides (in Italian);
+- README file explaining the proposed exercises, how to compile and test the code; 
+- src/ directory for the source files of the proposed solutions; and 
+- a test/ directory containing the test suits.
 
-
-## Lab 01
-### Editing and compiling. C language refresher: Constructs, array, printf, scanf.
+Overview:
+## Lab 01 -- Editing and compiling. C language refresher: Constructs, array, printf, scanf.
