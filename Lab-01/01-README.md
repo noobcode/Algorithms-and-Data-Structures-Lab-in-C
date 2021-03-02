@@ -1,7 +1,7 @@
 ## Ex. 1 Hello World
 Write a program that prints "Ciao Mondo!" on terminal.
 
-Compile; Execute and Test
+<span style="color:blue">*Compile; Execute and Test*</span>.
 
 ```bash
 cd src/ ; gcc -Wall 01-hello_world.c -o hello_world
