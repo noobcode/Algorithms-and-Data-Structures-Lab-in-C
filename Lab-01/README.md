@@ -41,3 +41,18 @@ gcc -Wall 03-sum.c -o sum
 ...
 ./sum < ../test/TestSet-03/input4.txt | diff - ../test/TestSet-03/output4.txt 
 ```
+
+## Ex.4 Invert an array in loco
+*Write a program that reads a sequence of N integers and stores them into an array; invert the array in place; print out the inverted array.
+(Hint: use two pointers, one starting from the beginning of the array, one starting from the end of the array)*
+
+#### Compile; Execute and Test
+```bash
+gcc -Wall 04-invert_array_in_loco.c -o invert_array_in_loco
+```
+```bash
+./invert_array_in_loco
+./invert_array_in_loco < ../test/TestSet-04/input0.txt | diff - ../test/TestSet-04/output0.txt
+...
+./invert_array_in_loco < ../test/TestSet-04/input5.txt | diff - ../test/TestSet-04/output5.txt 
+```
