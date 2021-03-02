@@ -69,4 +69,15 @@ gcc -Wall 05-recursive_sum_of_first_n_odd_numbers.c -o sum_odd
 ...
 ./sum_odd < ../test/TestSet-05/input4.txt | diff - ../test/TestSet-05/output4.txt
 ```
+## Ex.6 Swap two numbers
+*Write a program that reads two numbers a and b (one line per number); swaps the two variables a and b; prints their values (one per line).*
+
+#### Compile; Execute and Test
+```bash
+gcc -Wall 06-swap.c -o swap
+```
+```bash
+./swap
+./swap < ../test/TestSet-06/input0.txt | diff - ../test/TestSet-06/output0.txt 
+```
 
