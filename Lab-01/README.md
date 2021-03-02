@@ -56,3 +56,17 @@ gcc -Wall 04-invert_array_in_loco.c -o invert_array_in_loco
 ...
 ./invert_array_in_loco < ../test/TestSet-04/input5.txt | diff - ../test/TestSet-04/output5.txt 
 ```
+## Ex. 5 Recursive sum of first N odd numbers
+*Write a program that reads a number x and prints f(x), where f(x) is a recursive function that computes the sum of the first x odd numbers.*
+
+#### Compile; Execute and Test
+```bash
+gcc -Wall 05-recursive_sum_of_first_n_odd_numbers.c -o sum_odd
+```
+```bash
+./sum_odd
+./sum_odd < ../test/TestSet-05/input0.txt | diff - ../test/TestSet-05/output0.txt
+...
+./sum_odd < ../test/TestSet-05/input4.txt | diff - ../test/TestSet-05/output4.txt
+```
+
