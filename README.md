@@ -9,4 +9,4 @@ The main directory comprises a folder for each lecture. Each lecture directory i
 
 Overview:
 
-## Lab 01 -- Editing and compiling. C language refresher: Constructs, array, printf, scanf.
+### Lab 01 -- Editing and compiling. C language refresher: Constructs, array, printf, scanf.
