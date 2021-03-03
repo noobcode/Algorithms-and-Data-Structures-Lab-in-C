@@ -1,3 +1,5 @@
+TODO: group compile; Execute and Test at the end (automate them with *make*).
+
 ## Ex. 1 Hello World
 *Write a program that prints "Ciao Mondo!" on terminal.*
 
