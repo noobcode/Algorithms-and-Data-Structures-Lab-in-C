@@ -69,7 +69,7 @@ gcc -Wall 05-recursive_sum_of_first_n_odd_numbers.c -o sum_odd
 ...
 ./sum_odd < ../test/TestSet-05/input4.txt | diff - ../test/TestSet-05/output4.txt
 ```
-## Ex.6 Swap two numbers
+## Ex. 6 Swap two numbers
 *Write a program that reads two numbers a and b (one line per number); swaps the two variables a and b; prints their values (one per line).*
 
 #### Compile; Execute and Test
@@ -79,5 +79,17 @@ gcc -Wall 06-swap.c -o swap
 ```bash
 ./swap
 ./swap < ../test/TestSet-06/input0.txt | diff - ../test/TestSet-06/output0.txt 
+```
+
+## Ex. 7 Swap three numbers
+*Write a program that reads three numbers (a,b,c) into an array (one element per line); write a function **tswap(int* x, int*y, int* z)** that swaps the three elements of the array with the mapping (x,y,z) --> (z,x,y); print the elements of the resultant array (one per line)*.
+
+#### Compile; Execute and Test
+```bash
+gcc -Wall 07-triplet_swap.c -o tswap
+```
+```bash
+./tswap
+./tswap < ../test/TestSet-07/input0.txt | diff - ../test/TestSet-07/output0.txt
 ```
 
