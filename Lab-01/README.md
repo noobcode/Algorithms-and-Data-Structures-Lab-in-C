@@ -82,7 +82,7 @@ gcc -Wall 06-swap.c -o swap
 ```
 
 ## Ex. 7 Swap three numbers
-*Write a program that reads three numbers (a,b,c) into an array (one element per line); write a function **tswap(int* x, int*y, int* z)** that swaps the three elements of the array with the mapping (x,y,z) --> (z,x,y); print the elements of the resultant array (one per line)*.
+Write a program that reads three numbers (a,b,c) into an array (one element per line); write a function **tswap(int\* x, int\* y, int\* z)** that swaps the three elements of the array with the mapping (x,y,z) --> (z,x,y); print the elements of the resultant array (one per line).
 
 #### Compile; Execute and Test
 ```bash
@@ -93,3 +93,13 @@ gcc -Wall 07-triplet_swap.c -o tswap
 ./tswap < ../test/TestSet-07/input0.txt | diff - ../test/TestSet-07/output0.txt
 ```
 
+## Ex. 8 Min and Max of an array
+Write a function **minmax(int\* a, int n, int\* argmin, int\* argmax)** that given an array *a* of length *n*, finds the indeces of the minimum and maximum elements (argmin, argmax). Write a program that reads 10 numbers into an array; calls **minmax**; prints to stdout, one per line, *argmin*, *a[argmin]*, *argmax*, *a[argmax]*.
+
+```bash
+gcc -Wall 08-minmax.c -o minmax
+```
+```bash
+./minmax
+./minmax < ../test/TestSet-08/input1.txt | diff - ../test/TestSet-08/output1.txt
+```
