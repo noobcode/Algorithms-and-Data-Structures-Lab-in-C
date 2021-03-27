@@ -10,7 +10,7 @@ The main directory comprises a folder for each lecture. Each lecture directory i
 Overview:
 
 ### Lab 01 -- Editing and compiling. C language refresher: Constructs, array, printf, scanf.
-
+### Lab 02 -- Pointers, Array, Strings. Using Valgrind. Dynamic memory allocation. 
 
 
 Link to the [course](http://didawiki.cli.di.unipi.it/doku.php/informatica/all-a/start)
